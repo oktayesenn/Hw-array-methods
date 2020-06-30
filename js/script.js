@@ -21,14 +21,13 @@ console.log("script file wire up!!!")
 //   * the string "peace" otherwise.
 
 // 7. justSpock:
-// Create an array of all the pet objects that the pets named is "spock".
+// Create an array of all the pet objects where the pets named is "spock".
 
 
 // HUNGRY FOR MORE???
 
 // 8. catYears:
 // Find the total combined age of all cats (type: "cat").
-// The answer is 661.005.
 
 
 // 9. combinedAgeOfAllPetsOfDrinkers:
