@@ -3,7 +3,7 @@
 # Array Methods Practice
 
 This series of exercises will give you the opportunity to practice working with
-JavaScript's array methods. Note: that these array methods are sometimes called
+JavaScript's array methods. Note: These array methods are sometimes called
 **higher-order functions**.
 
 ## Prerequisites
