@@ -1,4 +1,4 @@
-console.log("script file wire up!!!")
+console.log("script file wired up and ready to roll!!!")
 
 // 1. allNames:
 // Use .forEach to print all persons names in the console.
