@@ -3,8 +3,8 @@
 # Array Methods Practice
 
 This series of exercises will give you the opportunity to practice working with
-JavaScript's array methods. Note that these array methods are sometimes called
-higher-order functions.
+JavaScript's array methods. Note: that these array methods are sometimes called
+**higher-order functions**.
 
 ## Prerequisites
 
@@ -14,13 +14,20 @@ higher-order functions.
 
 ## Instructions
 
-# (Very important) Don't forget to commit your progress, one commit per question at least!
+### Please remember to commit your progress after each question!
 
 * Fork and clone this repo.
-* Go inside the folder you just cloned.
-* Open VScode.
-* Answer the questions in the `script.js` file.
+* `cd` into the `HW-array-methods` directory you just cloned to your machine.
+* Open VSCode.
+* Answer **all** of the questions in the `script.js` file.
 * Submit your work by creating a new pull request.
+
+## Relevant Lesson Repos
+
+* [Array Iteration Methods & Higher-Order Functions](https://git.generalassemb.ly/jd-seir-4/js-array-methods)
+* [Objects and Context](https://git.generalassemb.ly/jd-seir-4/js-objects-and-context)
+* [Functions and Scope](https://git.generalassemb.ly/jd-seir-4/js-functions-and-scope)
+
 
 
 
