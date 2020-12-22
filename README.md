@@ -19,7 +19,8 @@ JavaScript's array methods. Note: These array methods are sometimes called
 * Fork and clone this repo.
 * `cd` into the `HW-array-methods` directory you just cloned to your machine.
 * Open VSCode.
-* Answer **all** of the questions in the `script.js` file.
+* Answer **all** of the questions in the `script.js` file _prior_ to the HUNGRY FOR MORE. 
+* (_Note: It is **strongly encouraged** that you complete the entire `script.js` file._)
 * Submit your work by creating a new pull request.
 
 ## Relevant Lesson Repos
