@@ -25,9 +25,9 @@ JavaScript's array methods. Note: These array methods are sometimes called
 
 ## Relevant Lesson Repos
 
-* [Array Iteration Methods & Higher-Order Functions](https://git.generalassemb.ly/jd-seir-6/js-array-methods)
-* [Objects and Context](https://git.generalassemb.ly/jd-seir-6/js-objects-and-context)
-* [Functions and Scope](https://git.generalassemb.ly/jd-seir-6/js-functions-and-scope)
+* [Array Iteration Methods & Higher-Order Functions](https://git.generalassemb.ly/Spartans/js-array-methods)
+* [Objects and Context](https://git.generalassemb.ly/Spartans/js-objects-and-context)
+* [Functions and Scope](https://git.generalassemb.ly/Spartans/js-functions-and-scope)
 
 
 
