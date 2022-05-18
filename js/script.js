@@ -29,7 +29,7 @@ console.log("script file wired up and ready to roll!!!")
 // Use .filter() to create an array of people old enough to be president.
 
 // const filteredAges = data.filter(num => {
-//     return num.age > 50
+//     return num.age > 21
 // })
 // console.log(filteredAges)
 
@@ -45,12 +45,20 @@ console.log("script file wired up and ready to roll!!!")
 //   * the string "war" if the person at that has BOTH a cat AND a dog.
 //   * the string "peace" otherwise.0
 
-// function war(data) {
-//     let both = data.war(yes => yes.cat & yes.dog =="yes")
-//     return both
-//   }
-  
-//   const war = data.map(both)
+
+
+// const warAndPeace = data.map(person => {
+
+//     const petTypes = person.pets.map(pet => pet.type)
+
+//     if (petTypes.includes('dog') && petTypes.includes('cat')) {
+//         return 'war'
+//     } else {
+//         return ' peace'
+//     }
+
+// })
+
 
 // 7. justSpock:
 // Create an array of all the pet objects where the pets named is "spock".
@@ -60,6 +68,11 @@ console.log("script file wired up and ready to roll!!!")
 
 // 8. catYears:
 // Find the total combined age of all cats (type: "cat").
+
+
+
+
+
 
 
 // 9. combinedAgeOfAllPetsOfDrinkers:
@@ -92,3 +105,5 @@ console.log("script file wired up and ready to roll!!!")
 
 // 11. petNameString:
 // Create a string that is all the pets names separated by spaces (order doesn't matter).
+
+
