@@ -1,84 +1,88 @@
-console.log("script file wired up and ready to roll!!!")
+console.log("Hello Oktay")
 
 // 1. allNames:
 // Use .forEach to print all persons names in the console.
-// data.forEach(allNames => console.log(`${allNames.name}`))
+// data.forEach(people => console.log(people.name))
 
 // 2. totalAgeAllPersons:
 // Find the total combined age of all persons.
-// const totalAgeAllPersons = data.reduce((totalAge, ages) => {
-//         return totalAge + ages.age
-//     }, 0)
-    
-//     console.log(totalAgeAllPersons)
-
+// const totalAgeAllPerson = data.reduce((ageTotal, ages) => {
+//     return ageTotal + ages.age
+// }, 0)
+// console.log(totalAgeAllPerson)
 
 // 3. totalAgeAllPets:
 // Find the total combined age of all pets.
 
-
-// const totalAgeAllPets = data.reduce((totalAgePets,agePets) => {
-//     for (i = 0; i < agePets.pets.length; i++)
-//         totalAgePets += agePets.pets[i].age
-//         return totalAgePets
+// const totalAgeAllPets = data.reduce((sum, people) => {
+//     for (i=0 ; i < people.pets.length ; i++) {
+//         sum += people.pets[i].age
+//     }
+//     return sum
 // }, 0)
-
 // console.log(totalAgeAllPets)
-
 // 4. oldEnough:
 // Use .filter() to create an array of people old enough to be president.
 
-// const filteredAges = data.filter(num => {
-//     return num.age > 21
+// const filterOldEnough = data.filter(people => {
+//     return people.age > 50
 // })
-// console.log(filteredAges)
-
+// console.log(filterOldEnough)
 // 5. sadPeople:
 // Use .filter() to create an array of "sad" people (people with no pets).
 
-// const filtered = data.filter(no => no.pets == "")
-// console.log(filtered)
-
-
+// const filterSadPeople = data.filter(people => {
+//     return people.pets.length === 0
+// })
+// console.log(filterSadPeople)
 // 6. warAndPeace:
 // Use.map() to create an array called warAndPeace that has, in each index the string "war" or "peace"
 //   * the string "war" if the person at that has BOTH a cat AND a dog.
-//   * the string "peace" otherwise.0
-
-
-
-// const warAndPeace = data.map(person => {
-
-//     const petTypes = person.pets.map(pet => pet.type)
-
-//     if (petTypes.includes('dog') && petTypes.includes('cat')) {
-//         return 'war'
-//     } else {
-//         return ' peace'
+//   * the string "peace" otherwise.
+// const warAndPeace = data.map(people => {
+//     let hasDog = null
+//     let hasCat = null
+//     for (let i=0 ; i < people.pets.length ; i++) {
+//     if (people.pets[i].type === 'dog') {
+//         hasDog = true 
+//     } 
+//     if (people.pets[i].type === 'cat') {
+//         hasCat = true
 //     }
-
+//     if (hasDog === true && hasCat === true){
+//         return 'war'
+//     }
+// }
+//     return 'peace'
 // })
 
 
 // 7. justSpock:
 // Create an array of all the pet objects where the pets named is "spock".
+// const findSpockOwner = data.filter(people => {
+//     for(i = 0 ; i < people.pets.length ; i++){
+//         if(people.pets[i].name === 'spock'){
+//             return people.pets[i]
+//         }
+//     }
+// })
+// const arrySpock = findSpockOwner.map(people => {
+//     for(i = 0 ; i < people.pets.length ; i++){
+//         if(people.pets[i].name === 'spock'){
+//             return people.pets[i]
+//         }
+//     }
+// })
+
+// console.log(arrySpock)
+
 
 
 // HUNGRY FOR MORE???
-
 // 8. catYears:
 // Find the total combined age of all cats (type: "cat").
-
-
-
-
-
-
-
 // 9. combinedAgeOfAllPetsOfDrinkers:
 // Find the combined age of all pets belonging to people old enough to legally purchase alcohol
-
-
 // 10. youngestPets:
 // Create an array containing the youngest pet each pet owner has.
 // Here's the answer: 
@@ -101,9 +105,5 @@ console.log("script file wired up and ready to roll!!!")
   { type: 'cat', name: 'rocky', age: 5 },
   { type: 'snake', name: 'reginald', age: 12 } ]
 */
-
-
 // 11. petNameString:
 // Create a string that is all the pets names separated by spaces (order doesn't matter).
-
-
